@@ -1,7 +1,18 @@
-.maincontainer {
-    background-color: lavender;
+
+@font-face {
+    font-family:"Magic Vintage";
+    src: url(fonts/MagicVintage.ttf) format(truetype);
 }
 
-.col, .col-6 {
-    border: solid black 4px;
+h1 {
+    font-family: "Magic Vintage", sans-serif;
+}
+
+.merriweather-text {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
