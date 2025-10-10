@@ -1,4 +1,37 @@
 
+.splide__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.splide {
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    background-color: 
+black;
+    margin: 0 auto;
+}
+
+.splide__slide__container img {
+    height: 400px;
+    object-fit: contain;
+    object-position: 50% 50%;
+}
+
+img {
+  height: 120px;
+}
+
+.cover {
+  width: 260px;
+  object-fit: cover;
+}
+
+.object-fit_scale-down { object-fit: scale-down }
+
+/* 
 @font-face {
     font-family:"Magic Vintage";
     src: url(fonts/MagicVintage.ttf) format(truetype);
@@ -15,4 +48,5 @@ h1 {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-}
+} */
+

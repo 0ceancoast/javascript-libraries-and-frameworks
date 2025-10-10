@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+
+    <link rel="stylesheet" href="css/css/splide.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    
+  </head>
+  <body>
+    <main>
+        <h1>Slideshow using Splide.js</h1>  
+
+        <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img class="object-fit_scale-down" src="img/down.jpg" alt="downy woodpecker">
+              </li>
+              <li class="splide__slide">
+                <img  src="img/pile.jpg" alt="pileated woodpecker">
+              </li>
+              <li class="splide__slide">
+                <img  src="img/north.jpg" alt="northern flicker">
+              </li>
+               <li class="splide__slide">
+                <img src="img/red.jpg" alt="red bellied woodpecker">
+              </li>
+            </ul>
+          </div>
+        </section>
+
+    </main>
+
+   
+    <script src="js/js/splide.min.js"></script>
+
+    <script>
+  new Splide( '#image-carousel' , {
+      heightRatio: 0.5,
+    }).mount();
+</script>
+
+
+  </body>
+</html>
